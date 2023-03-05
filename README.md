@@ -25,3 +25,22 @@ pnpm create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+
+## Swell
+
+Fill in .env copying environment variables from .env.template
+
+NEXT_PUBLIC_SWELL_STORE_URL will be the public store URL
+```
+{store_domain}.swell.store
+```
+
+NEXT_PUBLIC_SWELL_PUBLIC_KEY is available in the admin dashboard of your store
+```
+Developer > API Keys
+```
+
+More details for environment setup [here](https://developers.swell.is/storefronts/horizon)
+
+General Swell documentation can be found [here](https://developers.swell.is/)
