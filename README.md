@@ -31,7 +31,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 Fill in .env copying environment variables from .env.template
 
-NEXT_PUBLIC_SWELL_STORE_URL will be the public store URL
+NEXT_PUBLIC_SWELL_STORE_ID will be the public store URL
 ```
 {store_domain}.swell.store
 ```
